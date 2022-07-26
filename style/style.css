@@ -1,0 +1,146 @@
+body{
+    background-color: #000;
+}
+header {
+    text-align: center;
+}
+section{
+    padding: 10px;
+    width: 500px;
+    background-color: #333;
+    border-radius: 10px;
+    margin: auto;
+    color: aliceblue;
+}
+p input{
+    width: 350px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#txtn{
+    width: 340px;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+}
+@media screen and (max-width:700px) {
+    h1{
+        margin: auto;
+        text-align: center;
+        margin: 30px;
+    }
+    p input{
+        width: 550px;
+        height: 80px;
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    #txtn{
+        width: 550px;
+        height: 80px;
+    }
+    h3{
+    
+    }
+    div{
+        padding: 0px;
+       
+    }
+    #seltab{
+        width: 680px;
+        height: 130vh;
+        font-size: 70px;
+        margin-left: 10px;
+        color: aliceblue;
+        background-color: #333;
+
+    }
+    
+    section{
+        background-color: #333;
+        width:700px;
+        margin: auto;
+        height: 200vh;
+        border-radius: 10px;
+        padding: 0px;
+        margin-left: 0px;
+        box-shadow: 0px 0px 0px black;
+        margin-top: 0px;
+        
+    }
+    p{
+        text-align: left;
+        font-size: 50px;
+    
+    }
+    footer{
+        text-align: center;
+        margin: auto;
+        width:500px;
+    }
+    p{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1023px) and (min-width:701px){
+    h1{
+        margin: auto;
+        text-align: center;
+        margin: 30px;
+    }
+    p input{
+        width: 550px;
+        height: 80px;
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    #txtn{
+        width: 550px;
+        height: 80px;
+    }
+    h3{
+    
+    }
+    div{
+        padding: 0px;
+       
+    }
+    #seltab{
+        width: 1000px;
+        height: 100vh;
+        font-size: 100px;
+        margin-left: 10px;
+        color: aliceblue;
+        background-color: #333;
+
+    }
+    
+    section{
+        background-color: #333;
+        width:1023px;
+        margin: auto;
+        height: 150vh;
+        border-radius: 10px;
+        padding: 0px;
+        margin-left: 0px;
+        box-shadow: 0px 0px 0px black;
+        margin-top: 0px;
+        
+    }
+    p{
+        text-align: left;
+        font-size: 50px;
+    
+    }
+    footer{
+        text-align: center;
+        margin: auto;
+        width:500px;
+    }
+    p{
+        text-align: center;
+    }
+}
